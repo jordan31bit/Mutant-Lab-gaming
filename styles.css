@@ -2,10 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 #codvideo {
     min-width: 100vw;
     height: 100vh;
+    
   }
 
 html, body, footer {
@@ -21,6 +24,9 @@ html, body, footer {
 }
 #twitch:hover {
     color: #9146FF;
+}
+#discord:hover {
+    color: #7289DA;
 }
 #fb:hover {
     color: #3b5998;
@@ -54,7 +60,7 @@ ul li {
     list-style: none;
     display: inline-block;
 }
- ul li a {
+ul li a {
      padding: 15px;
      font-size: 3em;
      color: #262626;
@@ -100,30 +106,59 @@ ul li {
      /* z-index: 9; */
  }
 
- section div button {
-     font-size: 2em;
+ 
+ /* section div ul {
+    width: auto;
+    height: 100vh;
+     font-size: 1em;
      color: white;
-     width: auto;
-     height: auto;
-     padding: 15px;
-     border: 3px solid white;
+     /* padding: 15px; */
+     /* border: 3px solid red;
      border-radius: 3px;
      background-color: rgba(255, 255, 255, 0);
      transition-duration: 0.9s;
- }
+ }*/
+
+/* .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+ } */
  
- section div button:hover {
-     color: rgb(0, 0, 0);
+ /*section div ul li:hover {
      background-color: rgb(255, 254, 254, 1); 
      transition-duration: 0.4s;
+    } */
+    
+    section div ul li a {
+        transition-duration: 1.0s;
+        /*color: rgb(0, 0, 0);*/
+        color: white;
+    border: 3px solid white;
  }
 
- section div button a {
-     color: white;
-     text-decoration: none;
-     list-style: none;
+ section div ul li a:hover {
+     color: rgb(29, 131, 42);
+     background-color: rgb(255, 254, 254, 1); 
+     transition-duration: 1.0s;
+     color: purple;
+     transition-duration: 1.0s;
  }
 
- section div button a:hover {
-     color:rgb(94, 9, 94);
+ .floaty {
+     float: left;
+ }
+ .floaty-eh {
+     float: right;
+ }
+ .green {
+     color: green;
+ }
+ foo {
+     float: left;
+ }
+
+ .marker_font {
+     font-family: 'Permanent Marker';
  }
