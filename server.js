@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const port = $PORT;
+//const port = process.ev.PORT;
 
 // Set up home route
 app.get('/index.html', (req, res) => {
@@ -9,5 +9,5 @@ app.get('/index.html', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log(`Success! Your application is running on port ${port}.`);
+  console.log(`Success! Your application is running.`);
 });
