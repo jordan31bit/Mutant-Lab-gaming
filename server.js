@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const port = 4000;
+const port = $PORT;
 
 // Set up home route
 app.get('/', (req, res) => {
