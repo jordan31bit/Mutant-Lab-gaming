@@ -4,7 +4,7 @@ const app = express();
 const port = $PORT;
 
 // Set up home route
-app.get('/', (req, res) => {
+app.get('/index.html', (req, res) => {
   res.send('This is the homepage');
 });
 
