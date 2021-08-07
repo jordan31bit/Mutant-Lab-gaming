@@ -3,8 +3,10 @@ const express = require('express');
 const app = express();
 //const port = process.ev.PORT;
 
+app.use(express.static("public"));
+
 // Set up home route
-app.get('/index.html', (req, res) => {
+app.get('/', (req, res) => {
   res.send('This is the homepage');
 });
 
